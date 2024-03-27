@@ -1,0 +1,23 @@
+export type TCollection = {
+    id: number;
+    title: string;
+    category: string;
+    description: string;
+    userId: string;
+    image?: string;
+    custom_int1?: string;
+    custom_int2?: string;
+    custom_int3?: string;
+    custom_string1?: string;
+    custom_string2?: string;
+    custom_string3?: string;
+    custom_text1?: string;
+    custom_text2?: string;
+    custom_text3?: string;
+    custom_boolean1?: string;
+    custom_boolean2?: string;
+    custom_boolean3?: string;
+    custom_date1?: string;
+    custom_date2?: string;
+    custom_date3?: string;
+};
